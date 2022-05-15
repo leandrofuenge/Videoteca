@@ -30,4 +30,3 @@ Aqui obtive vários conhecimentos novos, como:
 * O uso de SWR para melhorar ainda mais a User Experience;
 * O conceito de UI otimista e o mutate de SWR;
 * Um pouco mais sobre design responsivo e CSS.
-
