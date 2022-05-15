@@ -2,7 +2,7 @@ const { response } = require("express");
 const { v4: uuid } = require("uuid");
 const Video = require("../models/Video");
 
-//MODULO DE EXPORTAÇÃO PARA RETORNOS DE ERROS
+//MODULO DE FUNÇÃO: RETORNOS DE ERROS E ACERTOS 
 
 module.exports = {
   async index(req, res) {
