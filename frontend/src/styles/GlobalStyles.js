@@ -1,5 +1,7 @@
 import { createGlobalStyle } from "styled-components";
 
+//MODULO DE FUNÇÃO: EXPORTAÇÃO DE ESTILIZAÇÃO
+
 export default createGlobalStyle`
   * {
   margin: 0;

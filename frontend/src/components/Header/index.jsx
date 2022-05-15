@@ -2,7 +2,8 @@ import React from "react";
 
 import { Container } from "./styles";
 
-//Função que exporta um container para o Layout de tela.
+//MODULO DE FUNÇÃO: EXPORTAR O CONTAINER PARA O LAYOUT DA TELA
+
 export default function Header() {
   return (
     <Container>

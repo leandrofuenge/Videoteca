@@ -2,6 +2,8 @@ const { response } = require("express");
 const { v4: uuid } = require("uuid");
 const Video = require("../models/Video");
 
+//MODULO DE EXPORTAÇÃO PARA RETORNOS DE ERROS
+
 module.exports = {
   async index(req, res) {
     try {

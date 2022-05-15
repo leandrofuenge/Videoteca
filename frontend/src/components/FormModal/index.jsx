@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import { EditingVideoContext } from "../../context/EditingVideoContext";
 import { FormModalContext } from "../../context/FormModalContext";
 
+//MODULO DE FUNÇÃO: IMPORTAÇÃO DAS ESTILIZAÇÕES 
 
 import {
   Overlay,
@@ -14,6 +15,8 @@ import {
   Footer,
   CheckIcon,
 } from "./styles";
+
+//MODULO DE FUNÇÃO: EXPORTAÇÃO DE FUNÇÕES 
 
 export default function FormModal() {
   const {

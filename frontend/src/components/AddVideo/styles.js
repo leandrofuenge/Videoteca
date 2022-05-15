@@ -2,7 +2,8 @@ import styled from "styled-components";
 
 import { IoAdd } from "react-icons/io5";
 
-//Exporta a estilização do AddVideoButton no Layout.
+//MODULO DE EXPORTAÇÃO: ESTILIZAÇÃO DO "AddVideoButton" NO LAYOUT
+
 export const AddVideoButton = styled.button`
   list-style: none;
   border: 5px dashed #ffffff;

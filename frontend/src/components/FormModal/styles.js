@@ -2,6 +2,8 @@ import styled from "styled-components";
 
 import { IoClose, IoCheckmark } from "react-icons/io5";
 
+//MODULO DE FUNÇÃO: EXPORTAÇÃO DE ESTILIZAÇÕES
+
 export const Overlay = styled.div`
   background: rgba(242, 243, 245, 0.6);
   position: fixed;

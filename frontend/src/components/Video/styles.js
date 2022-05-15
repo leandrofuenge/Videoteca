@@ -1,5 +1,7 @@
 import styled from "styled-components";
 
+//MODULO DE FUNÇÃO: EXPORTAÇÃO DE ESTILIZAÇÃO
+
 export const Container = styled.div`
   /* list-style: none; */
   background: #ffffff;

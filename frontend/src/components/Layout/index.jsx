@@ -6,6 +6,9 @@ import Footer from "../Footer";
 
 import { Container } from "./styles";
 
+//MODULO DE FUNÇÃO: EXPORTAÇÃO DAS VARIAVEIS DE AMBIENTE PARA O LAYOUT DE TELA
+
+
 export default function Layout() {
   return (
     <Container>

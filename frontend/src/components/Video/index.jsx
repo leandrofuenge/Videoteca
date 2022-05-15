@@ -1,3 +1,5 @@
+//MODULO DE FUNÇÃO: IMPORTAÇÃO DAS BIBLIOTECAS DO REACT
+
 import React, { useContext } from "react";
 
 import { IoTrashBin, IoThumbsUp, IoPencil } from "react-icons/io5";
@@ -5,9 +7,15 @@ import { EditingVideoContext } from "../../context/EditingVideoContext";
 import { FormModalContext } from "../../context/FormModalContext";
 import { useAxios } from "../../hooks/useAxios";
 
+//MODULO DE FUNÇÃO: IMPORTAÇÃO DA API
+
 import api from "../../services/api";
 
+//MODULO DE FUNÇÃO: IMPORTAÇÃO 
+
 import { Container, ButtonArea, Button } from "./styles";
+
+//MODULO DE FUNÇÃO: EXPORTAÇÃO DAS FUNÇÕES DAS VARIAVEIS
 
 export default function Video({ id, title, link, liked }) {
   const { handleEditMode } = useContext(FormModalContext);
