@@ -7,7 +7,7 @@ import { Container } from "./styles";
 export default function Header() {
   return (
     <Container>
-      <h3>simple design</h3>
+      <h3>VideoTeca</h3>
     </Container>
   );
 }

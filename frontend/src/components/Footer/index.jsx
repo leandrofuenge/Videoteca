@@ -7,7 +7,7 @@ import { Container } from "./styles";
 export default function Footer() {
   return (
     <Container>
-      <strong>software engineering development studies</strong>
+      <strong>software engineering development studies / 🧑‍💻software engineering student: Leandro costa</strong>
     </Container>
   );
 }

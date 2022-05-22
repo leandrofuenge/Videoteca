@@ -30,3 +30,20 @@ Aqui obtive vários conhecimentos novos, como:
 * O uso de SWR para melhorar ainda mais a User Experience;
 * O conceito de UI otimista e o mutate de SWR;
 * Um pouco mais sobre design responsivo e CSS.
+
+
+
+### Sobre o app
+É um aplicativo para você salvar links de vídeos, onde pode colar o link de um vídeo, atribuí-lo um nome, dar like, editar e excluir. O código e a UI foi feita inteiramente em inglês, buscando melhorar meu conhecimento na linguagem.
+
+**Homepage:**
+
+![Homepage](./images/home.png)
+
+**Modal para criar/editar nota**
+
+![Modal](./images/editvideo.png)
+
+**Possui responsividade, ou seja Funciona em aparelhos moveis!**
+
+![Mobile](./images/mobile.png)
