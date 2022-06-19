@@ -2,7 +2,7 @@ import React from "react";
 
 import { Container } from "./styles";
 
-//MODULO DE FUNÇÃO: PARA EXPORTAR O "CONTAINER" DE DADOS PARA O LAYOUT DE TELA
+//function module to export "container" data to screen layout
 
 export default function Footer() {
   return (

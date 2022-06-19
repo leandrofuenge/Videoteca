@@ -2,7 +2,7 @@ import React from "react";
 
 import { Container } from "../styles"
 
-//MODULO DE FUNÇÃO: EXPORTAÇÃO DE ESTILIZAÇÃO
+//style export function module
 
 export default function Header() {
    return(

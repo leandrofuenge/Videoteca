@@ -4,7 +4,7 @@ const routes = express.Router();
 const VideoController = require("./controllers/VideoController");
 const VideoMiddleware = require("./middlewares/VideoMiddleware");
 
-//MODULO DE FUNÇÃO: ROTAS DE APLICAÇÕES
+//application routes function module
 
 routes.get("/videos", VideoController.index);
 

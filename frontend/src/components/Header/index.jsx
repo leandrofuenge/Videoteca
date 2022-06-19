@@ -2,7 +2,7 @@ import React from "react";
 
 import { Container } from "./styles";
 
-//MODULO DE FUNÇÃO: EXPORTAR O CONTAINER PARA O LAYOUT DA TELA
+//function module export a container to screen layout
 
 export default function Header() {
   return (

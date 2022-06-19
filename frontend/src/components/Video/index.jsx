@@ -1,4 +1,4 @@
-//MODULO DE FUNÇÃO: IMPORTAÇÃO DAS BIBLIOTECAS DO REACT
+//function module import from react libraries
 
 import React, { useContext } from "react";
 
@@ -7,15 +7,13 @@ import { EditingVideoContext } from "../../context/EditingVideoContext";
 import { FormModalContext } from "../../context/FormModalContext";
 import { useAxios } from "../../hooks/useAxios";
 
-//MODULO DE FUNÇÃO: IMPORTAÇÃO DA API
+//API import function module
 
 import api from "../../services/api";
 
-//MODULO DE FUNÇÃO: IMPORTAÇÃO 
 
 import { Container, ButtonArea, Button } from "./styles";
 
-//MODULO DE FUNÇÃO: EXPORTAÇÃO DAS FUNÇÕES DAS VARIAVEIS
 
 export default function Video({ id, title, link, liked }) {
   const { handleEditMode } = useContext(FormModalContext);

@@ -1,10 +1,10 @@
-//MODULO DE FUNÇÃO: IMPORTAÇÃO DAS PRINCIPAIS VARIAVEIS DE AMBIENTE
+//function module import of main environment variables
 
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
 
-//MODULO DE FUNÇÃO: RENDERIZADOR DO LAYOUT
+//layout renderer function module
 
 ReactDOM.render(
   <React.StrictMode>

@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-//MODULO DE FUNÇÃO: EXPORTAÇÃO DE ESTILIZAÇÃO
+//style import function module
 
 export const Container = styled.div`
   display: flex;

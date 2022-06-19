@@ -5,7 +5,7 @@ const cors = require("cors");
 const mongoose = require("mongoose");
 const routes = require("./routes");
 
-//MODULO DE FUNÇÃO: CONEXÃO COM O BANCO DE DADOS
+//database connection function module
 
 mongoose.connect(process.env.DATABASE_URL, {
   useNewUrlParser: true,
@@ -15,7 +15,7 @@ const db = mongoose.connection;
 db.on("error", (error) => console.error(error));
 db.once("open", () => console.log("📦 Connected to the database!"));
 
-//MODULO DE FUNÇÃO: CRIAÇÃO PORTA
+//port creation function module
 
 const port = 3333;
 const app = express();

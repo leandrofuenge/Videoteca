@@ -1,4 +1,4 @@
-//MODULO DE FUNÇÃO: IMPORTAÇÃO DAS PRINCIPAIS VARIAVEIS DE AMBIENTE
+//function module import of main environment variables
 
 import React from "react";
 import Layout from "./components/Layout";

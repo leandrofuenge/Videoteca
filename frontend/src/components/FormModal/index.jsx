@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { EditingVideoContext } from "../../context/EditingVideoContext";
 import { FormModalContext } from "../../context/FormModalContext";
 
-//MODULO DE FUNÇÃO: IMPORTAÇÃO DAS ESTILIZAÇÕES 
+//style import function module
 
 import {
   Overlay,
@@ -16,7 +16,6 @@ import {
   CheckIcon,
 } from "./styles";
 
-//MODULO DE FUNÇÃO: EXPORTAÇÃO DE FUNÇÕES 
 
 export default function FormModal() {
   const {

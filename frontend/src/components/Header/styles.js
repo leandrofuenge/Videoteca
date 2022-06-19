@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-//MODULO DE FUNÇÃO: EXPORTAÇÃO DE ESTILIZAÇÃO
+//style export function module
 
 export const Container = styled.header`
   width: 100vw;

@@ -2,7 +2,7 @@ const { response } = require("express");
 const { v4: uuid } = require("uuid");
 const Video = require("../models/Video");
 
-//MODULO DE FUNÇÃO: RETORNOS DE ERROS E ACERTOS 
+//error and success return function module
 
 module.exports = {
   async index(req, res) {
@@ -71,7 +71,7 @@ module.exports = {
 
     try {
       await res.video.save()
-      
+
       return res.status(200).json({
         message: `Video ${
           res.video.liked ? "liked" : "unliked"
@@ -81,7 +81,7 @@ module.exports = {
       res.status(400).json({ error: err.message })
     }
 
-    
+
 
   },
 };

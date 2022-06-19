@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\backend",
+    "\\backend\\src",
+    "\\backend\\src\\controllers",
+    "\\backend\\src\\middlewares",
+    "\\frontend",
+    "\\frontend\\src",
+    "\\frontend\\src\\components",
+    "\\frontend\\src\\components\\FormModal",
+    "\\frontend\\src\\components\\Header"
+  ],
+  "SelectedNode": "\\backend\\src\\controllers\\VideoController.js",
+  "PreviewInSolutionExplorer": false
+}

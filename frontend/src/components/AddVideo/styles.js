@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 import { IoAdd } from "react-icons/io5";
 
-//MODULO DE EXPORTAÇÃO: ESTILIZAÇÃO DO "AddVideoButton" NO LAYOUT
+//export module "Add Video Button" styling in the layout
 
 export const AddVideoButton = styled.button`
   list-style: none;

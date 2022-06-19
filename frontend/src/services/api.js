@@ -1,4 +1,4 @@
-//MODULO DE CONEXÃO COM O BACKEND
+//backend connection module
 
 import axios from "axios";
 
@@ -7,4 +7,3 @@ const api = axios.create({
 });
 
 export default api;
- 
