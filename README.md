@@ -4,13 +4,13 @@ Aplicação de estudo desenvolvida para aprender tecnologias e fixar conceitos d
 ### Tecnologias utilizadas:
 * MongoDB
 * Node.js
-  * Express
-  * uuid
-  * Mongoose
+* Express
+* uuid
+* Mongoose
 * React
-  * React Icons
-  * Axios
-  * SWR
+* React Icons
+* Axios
+* SWR
 
 ### Novos aprendizados:
 #### Node.js:
